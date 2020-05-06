@@ -16,9 +16,10 @@ print(x)
 # This nested function has a similar problem.
 
 def outer():
-    y = 120
+    y = 120 # local variable
 
     def inner():
+        nonlocal y # nonlocal variable
         y = 999
 
     inner()

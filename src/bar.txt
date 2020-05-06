@@ -1,0 +1,4 @@
+*bar.txt file*
+def something(**someone):
+this function [someone]
+returns all [**]
